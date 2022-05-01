@@ -1,0 +1,28 @@
+{
+  "addBtn" : "(//a[@routerlink='/add'])[2]",
+  "addPgTextArea": "//h2[@class='display-3']",
+  "Fname": "//input[@id='fullName']",
+  "Age": "//input[@id='age']",
+  "Address": "//textarea[@id='address']",
+  "Country": "//select[@name='country']",
+  "SubmitBtn": "//input[@value='Submit']",
+  "FilterText": "//input[@placeholder='Filter Full Name']",
+  "FilterBtn": "//input[@value='Filter']",
+  "UserAval": "//div[@col-id='fullName'][@role='gridcell']",
+  "addPageText": "//h2[@class='display-3']",
+  "resetBtn": "//input[@Value='Reset']",
+
+
+  "filterCountry": "//div/span[contains(text(),'Country')]/../../span",
+  "filterCountryTxt": "//input[@id='filterText']",
+  "countryAval": "//div[@col-id='country'][@role='gridcell']",
+
+  "userName": "//input[@name='username']",
+  "password": "//input[@name='password']",
+  "clkLogin": "//input[@value='Login']",
+  "datePicker": "//input[@name='dp']",
+  "selMonth":"//select[@title='Select month']",
+  "selYear": "//select[@title='Select year']",
+  "selCountry":"//select[@name='country']"
+
+}
